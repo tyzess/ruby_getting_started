@@ -14,9 +14,8 @@ group :production do
   gem 'pg'
 end
 
-gem rails_12factor
-
-gem therubyracer
+gem 'rails_12factor'
+gem 'therubyracer'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
